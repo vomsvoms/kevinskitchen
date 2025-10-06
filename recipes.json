@@ -21,7 +21,7 @@
       "instructions": "Cook onions with spices, add tomatoes and pasata, simmer, then stir in yogurt and cream. Garnish with fresh coriander."
     },
     {
-      "name": "Roasted Buttermintm Squash",
+      "name": "Roasted Buttermint Squash",
       "image": "images/squash-placeholder.jpg",
       "ingredients": [
         "Buttermintm squash",
@@ -48,3 +48,4 @@
     }
   ]
 }
+
