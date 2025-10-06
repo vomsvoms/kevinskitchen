@@ -48,7 +48,7 @@
     },
     {
   "name": "Cajun Seafood Boil with Garlic Butter Sauce",
-  "image": "",
+  "image": "images/cajunseafoodboil.jpg",
   "ingredients": [
     {
       "section": "For the Boil",
@@ -107,6 +107,7 @@
 }
   ]
 }
+
 
 
 
