@@ -90,9 +90,24 @@
 		"3 L Red Wine (reduce by 80%)"
 	],
 		"instructions": "3 hours pressure cooking"
+	},
+	{
+	"name": "Sweet chili sauce",
+	"image": "images/sweet-chili-sauce.png",
+	"ingredients": [
+		"Mirin",
+		"Rice Vinegar",
+		"Garlic",
+		"Chilis",
+		"Dark Moscavado",
+		"Sriracha",
+		"Vegan fish sauce"
+	],
+		"instructions": "Grind and Mix"
 	}
 	]
 }
+
 
 
 
