@@ -22,7 +22,7 @@
     },
     {
       "name": "Roasted Buttermint Squash",
-      "image": "images/squash-placeholder.jpg",
+      "image": "images/roasted-buttermint-squash.png",
       "ingredients": [
         "Buttermint squash",
         "Labneh",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Chestnut Sauce",
-      "image": "images/chestnut-placeholder.jpg",
+      "image": "images/chestnut-sauce.png",
       "ingredients": [
         "2.5 Kg Chestnut",
         "500 g Butter",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Cajun Seafood Boil with Garlic Butter Sauce",
-      "image": "images/cajunseafoodboil.jpg",
+      "image": "images/cajun-seafood-boil.png",
       "ingredients": [
       "4-6 quarts water (or water/beer/stock mix)",
       "1/2 - 3/4 cup Cajun or Old Bay Seasoning",
@@ -77,6 +77,7 @@
     }
   ]
 }
+
 
 
 
