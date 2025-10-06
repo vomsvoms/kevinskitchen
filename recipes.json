@@ -79,21 +79,21 @@
       "name": "Beef Sus",
       "image": "images/beef-sus.png",
       "ingredients": [
-	    "10 kg Beer Trim"
-	    “10 Bags Veal stock”
-	    “Shallot”
-	    “Garlic”
-	    “Thyme”
-	    “Rosemary”
-	    “200 ml Sherry Vinegar”
-	    “1.5 L Port Wine (reduce by 80%)”
+	    "10 kg Beer Trim",
+	    “10 Bags Veal stock”,
+	    “Shallot”,
+	    “Garlic”,
+	    “Thyme”,
+	    “Rosemary”,
+	    “200 ml Sherry Vinegar”,
+	    “1.5 L Port Wine (reduce by 80%)”,
 	    “3 L Red Wine (reduce by 80%)”
       ],
       "instructions": "3 hours pressure cooking"
     }
-
-  ]
+	]
 }
+
 
 
 
