@@ -2,7 +2,7 @@
   "recipes": [
     {
       "name": "Prawn Curry",
-      "image": "images/prawn-curry-placeholder.jpg",
+      "image": "images/prawn-curry.png",
       "ingredients": [
         "Diced onion",
         "Yellow/Black Mustard",
@@ -48,4 +48,5 @@
     }
   ]
 }
+
 
