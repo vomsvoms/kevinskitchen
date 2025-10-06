@@ -24,7 +24,7 @@
       "name": "Roasted Buttermint Squash",
       "image": "images/squash-placeholder.jpg",
       "ingredients": [
-        "Buttermintm squash",
+        "Buttermint squash",
         "Labneh",
         "Red onion cloves",
         "Mini figs",
@@ -45,8 +45,68 @@
         "Thyme"
       ],
       "instructions": "Roast chestnuts in butter, add shallots, boil both milks, infuse thyme, reduce with Martini."
+    },
+    {
+  "name": "Cajun Seafood Boil with Garlic Butter Sauce",
+  "image": "",
+  "ingredients": [
+    {
+      "section": "For the Boil",
+      "items": [
+        "4-6 quarts water (or water/beer/stock mix)",
+        "1/2 - 3/4 cup Cajun or Old Bay Seasoning",
+        "1/4 cup salt (or to taste)",
+        "1 large onion, quartered",
+        "2 heads garlic, halved",
+        "2 lemons, sliced",
+        "4-5 bay leaves",
+        "1.5 lbs small red or Yukon Gold potatoes, halved",
+        "12-14 oz smoked Andouille sausage, 1-2 inch pieces",
+        "4-6 ears of corn on the cob, halved or quartered",
+        "2 lbs crab legs (pre-cooked)",
+        "1.5 - 2 lbs jumbo shrimp, shell-on, deveined",
+        "Hot sauce (optional, to taste)"
+      ]
+    },
+    {
+      "section": "For the Garlic Butter Sauce",
+      "items": [
+        "1 cup (2 sticks) unsalted butter, melted",
+        "8-10 cloves garlic, minced",
+        "1-2 tablespoons Cajun/Creole seasoning",
+        "1 tablespoon Old Bay seasoning",
+        "1 teaspoon smoked paprika",
+        "2 tablespoons lemon juice",
+        "1/4 cup fresh parsley, finely chopped",
+        "1/2 - 1 cup reserved boiling liquid (optional)"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "description": "Combine liquid (water/beer/stock), onion, garlic, lemon slices, bay leaves, Cajun/Old Bay seasoning, and salt in a large stockpot. Bring to a rolling boil and cook for 10-15 minutes to develop flavor."
+    },
+    {
+      "step": 2,
+      "description": "Add the **potatoes**. Boil for 10-15 minutes until almost tender. Then, add the **sausage and corn** and boil for another 3-5 minutes."
+    },
+    {
+      "step": 3,
+      "description": "Add the **crab legs** and **shrimp** (and any other seafood). Immediately turn off the heat, cover the pot, and let the seafood soak for 3-10 minutes. Shrimp is done when pink and curved into a 'C' shape."
+    },
+    {
+      "step": 4,
+      "description": "While soaking, make the sauce: Melt butter, sauté minced garlic for 2-3 minutes. Stir in Cajun/Creole seasoning, Old Bay, paprika, lemon juice, and optional reserved broth. Stir in parsley."
+    },
+    {
+      "step": 5,
+      "description": "Drain all the seafood and vegetables. Pour onto a large platter or newspaper-lined table. Generously pour the garlic butter sauce over everything and serve immediately."
     }
   ]
 }
+  ]
+}
+
 
 
