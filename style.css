@@ -4,7 +4,6 @@ body {
   padding: 0;
   background: url("images/kitchen-background.jpg") no-repeat center center fixed;
   background-size: cover;  /* makes it stretch to fit screen */
-  color: #5fc5dc;
   background-color:#5fc5dc;
 }
 body::before {
@@ -76,6 +75,7 @@ button {
 button:hover {
   background: #a84300;
 }
+
 
 
 
