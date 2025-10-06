@@ -18,7 +18,7 @@
         "Cream",
         "Fresh coriander"
       ],
-      "instructions": "Cook onions with spices, add tomatoes and pasata, simmer, then stir in yogurt and cream. Garnish with fresh coriander."
+      "instructions": "Cook onions with spices, add tomatoes and passata, simmer, then stir in yogurt and cream. Garnish with fresh coriander."
     },
     {
       "name": "Roasted Buttermint Squash",
@@ -74,9 +74,27 @@
       "1/2 - 1 cup reserved boiling liquid (optional)"
     ],
       "instructions": "Combine liquid, onion, garlic, lemon slices, bay leaves, Cajun/Old Bay seasoning, and salt in a large stockpot. Bring to a rolling boil for 10-15 min. Add potatoes until almost tender, then add sausage and corn for 3-5 min. Add crab legs and shrimp, turn off heat, cover, and soak for 3-10 min. Make garlic butter sauce: melt butter, sauté garlic, stir in seasonings, lemon juice, parsley, and optional broth. Drain everything, pour on platter, coat with sauce, and serve immediately."
+    },
+    {
+      "name": "Beer Sus",
+      "image": "images/beer-sus.png",
+      "ingredients": [
+	    "10 kg Beer Trim"
+	    “10 Bags Veal stock”
+	    “Shallot”
+	    “Garlic”
+	    “Thyme”
+	    “Rosemary”
+	    “200 ml Sherry Vinegar”
+	    “1.5 L Port Wine (reduce by 80%)”
+	    “3 L Red Wine (reduce by 80%)”
+      ],
+      "instructions": "3 hours pressure cooking"
     }
+
   ]
 }
+
 
 
 
