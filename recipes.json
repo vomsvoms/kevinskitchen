@@ -76,8 +76,8 @@
       "instructions": "Combine liquid, onion, garlic, lemon slices, bay leaves, Cajun/Old Bay seasoning, and salt in a large stockpot. Bring to a rolling boil for 10-15 min. Add potatoes until almost tender, then add sausage and corn for 3-5 min. Add crab legs and shrimp, turn off heat, cover, and soak for 3-10 min. Make garlic butter sauce: melt butter, sauté garlic, stir in seasonings, lemon juice, parsley, and optional broth. Drain everything, pour on platter, coat with sauce, and serve immediately."
     },
     {
-      "name": "Beer Sus",
-      "image": "images/beer-sus.png",
+      "name": "Beef Sus",
+      "image": "images/beef-sus.png",
       "ingredients": [
 	    "10 kg Beer Trim"
 	    “10 Bags Veal stock”
@@ -94,6 +94,7 @@
 
   ]
 }
+
 
 
 
