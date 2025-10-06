@@ -104,9 +104,24 @@
 		"Vegan fish sauce"
 	],
 		"instructions": "Grind and Mix"
+	},
+	{
+	"name": "Chestnut Sauce",
+	"image": "images/chestnut-sauce.png",
+	"ingredients": [
+		"2.5 Kg Chestnut",
+		"500 g Butter",
+		"75 cl Martini",
+		"Shallots",
+		"1 L Almond milk",
+		"1/2 L Whole milk",
+		"Thyme"
+	],
+		"instructions": "Roast Chestnut in butter. Add Shallots. Boil Both milk. Fuse Thyme. Reduce Martini"
 	}
 	]
 }
+
 
 
 
