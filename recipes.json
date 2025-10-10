@@ -32,6 +32,21 @@
       ],
       "instructions": "Roast squash until tender. Serve with labneh, figs, and a sprinkle of za'atar."
     },
+	{
+      "name": "Greek BBQ",
+      "image": "images/greek-bbq.png",
+      "ingredients": [
+        "Pork shoulder",
+		"Quality Balsamic",
+        "Fennel Seeds",
+        "Oregano",
+        "Paprika",
+        "Garlic",
+		"Black Pepper Corn",
+		"Olive Oil"
+      ],
+      "instructions": "Prepare the Marinade. In a medium bowl, whisk together the Olive Oil, Quality Balsamic Vinegar, minced Garlic, ground Fennel Seeds, Oregano, Paprika, Black Pepper, and Salt. Mix well. Marinate then Skewer."
+    },
     {
       "name": "Chestnut Sauce",
       "image": "images/chestnut-sauce.png",
@@ -118,6 +133,7 @@
 	}
 	]
 }
+
 
 
 
