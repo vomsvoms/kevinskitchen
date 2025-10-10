@@ -77,6 +77,16 @@ button:hover {
   background: #a84300;
 }
 
+.social-links a {
+    margin: 0 10px; /* Adds space between icons */
+    color: #333; /* Sets a default icon color */
+    font-size: 24px; /* Adjusts the size of the icons */
+    text-decoration: none; /* Removes any underline */
+}
+
+.social-links a:hover {
+    color: #1DA1F2; /* Example: Changes color on hover */
+}
 
 
 
