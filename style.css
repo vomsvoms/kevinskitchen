@@ -1,0 +1,150 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #5cb85c; /* Kevin's Kitchen Green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Constrain width for large screens */
+    margin: 0 auto;
+}
+
+/* Utility Class */
+.hidden {
+    display: none !important;
+}
+
+/* ------------------------------------- */
+/* Recipe List Styling (The Main Grid)   */
+/* ------------------------------------- */
+
+#recipe-list h2 {
+    color: #5cb85c;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.recipe-category-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    /* Use CSS Grid for a clean layout on wide screens */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.recipe-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.recipe-card h3 {
+    padding: 10px 15px 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.recipe-card p {
+    padding: 0 15px 15px;
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* ------------------------------------- */
+/* Recipe Details Styling                */
+/* ------------------------------------- */
+
+#recipe-details {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#recipe-details h2 {
+    color: #333;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#recipe-details h3 {
+    color: #5cb85c;
+    margin-top: 25px;
+}
+
+#recipe-details ul, 
+#recipe-details ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+#back-btn {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+#back-btn:hover {
+    background-color: #aaa;
+}
+
+/* ------------------------------------- */
+/* Footer and Social Links               */
+/* ------------------------------------- */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: #5cb85c;
+}
