@@ -49,7 +49,7 @@ main {
     display: grid;
     /* Apply grid layout for recipe cards */
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
-    gap: 1.5rem;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 /* ------------------------------------------------------------- */
@@ -63,7 +63,6 @@ main {
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
-    margin: 2rem;
     /* Ensure the card takes up the grid item space */
     height: 100%; 
 }
@@ -136,6 +135,7 @@ footer {
     /* Use a color that stands out on the dark footer, like an orange or white */
     color: #d35400; 
 }
+
 
 
 
