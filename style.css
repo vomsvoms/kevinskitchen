@@ -64,7 +64,7 @@ main {
     cursor: pointer;
     transition: transform 0.2s;
     /* Ensure the card takes up the grid item space */
-    height: 100%; 
+    
 }
 
 .recipe-card:hover {
@@ -135,6 +135,7 @@ footer {
     /* Use a color that stands out on the dark footer, like an orange or white */
     color: #d35400; 
 }
+
 
 
 
