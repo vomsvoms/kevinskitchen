@@ -30,6 +30,7 @@ function renderTable() {
     row.innerHTML = `
       <td><img src="${recipe.image}" alt="${recipe.name}" class="recipe-thumb"></td>
       <td>${recipe.name}</td>
+      <td>${recipe.category || "—"}</td>
       <td>
         <button onclick="editRecipe(${i})">✏️ Edit</button>
         <button onclick="deleteRecipe(${i})">🗑️ Delete</button>
@@ -123,5 +124,6 @@ document.getElementById("exportBtn").addEventListener("click", () => {
   a.download = "recipes.json";
   a.click();
 });
+
 
 
