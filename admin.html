@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin's Kitchen Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>
+    <h1>Kevin's Kitchen Dashboard</h1>
+    <p>Manage your recipes below. You can add, edit, delete, and export your JSON file.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <button id="addRecipeBtn">➕ Add New Recipe</button>
+      <button id="exportBtn">⬇️ Export JSON</button>
+    </section>
+
+    <section id="recipeTableContainer">
+      <table id="recipeTable">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="recipeTableBody"></tbody>
+      </table>
+    </section>
+
+    <!-- Add/Edit Form -->
+    <section id="formSection" class="hidden">
+      <h2 id="formTitle">Add Recipe</h2>
+      <form id="recipeForm">
+        <label>Name:</label>
+        <input type="text" id="recipeName" required>
+
+        <label>Image URL or Upload:</label>
+        <input type="text" id="recipeImage" placeholder="images/filename.jpg">
+        <input type="file" id="uploadImage" accept="image/*">
+        <div id="imagePreview"></div>
+
+        <label>Ingredients (one per line):</label>
+        <textarea id="recipeIngredients" rows="5" required></textarea>
+
+        <label>Instructions:</label>
+        <textarea id="recipeInstructions" rows="5" required></textarea>
+
+        <div class="form-buttons">
+          <button type="submit" id="saveBtn">💾 Save</button>
+          <button type="button" id="cancelBtn">❌ Cancel</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kevin's Kitchen Admin Dashboard</p>
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
