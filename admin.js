@@ -5,8 +5,8 @@ const recipeTableBody = document.getElementById("recipeTableBody");
 const formSection = document.getElementById("formSection");
 const formTitle = document.getElementById("formTitle");
 const recipeForm = document.getElementById("recipeForm");
-
 const nameInput = document.getElementById("recipeName");
+const categoryInput = document.getElementById("recipeCategory");
 const imageInput = document.getElementById("recipeImage");
 const uploadInput = document.getElementById("uploadImage");
 const imagePreview = document.getElementById("imagePreview");
@@ -68,6 +68,7 @@ recipeForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const newRecipe = {
     name: nameInput.value.trim(),
+    category: categoryInput.value.trim(),
     image: imageInput.value.trim(),
     ingredients: ingredientsInput.value.split("\n").map(i => i.trim()).filter(i => i),
     instructions: instructionsInput.value.trim()
@@ -96,6 +97,7 @@ window.editRecipe = function (index) {
   formTitle.textContent = "Edit Recipe";
 
   nameInput.value = r.name;
+  categoryInput.value = r.category || "";
   imageInput.value = r.image;
   ingredientsInput.value = r.ingredients.join("\n");
   instructionsInput.value = r.instructions;
@@ -121,4 +123,5 @@ document.getElementById("exportBtn").addEventListener("click", () => {
   a.download = "recipes.json";
   a.click();
 });
+
 
