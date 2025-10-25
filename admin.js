@@ -46,6 +46,8 @@ document.getElementById("addRecipeBtn").addEventListener("click", () => {
   recipeForm.reset();
   imagePreview.innerHTML = "";
   editIndex = null;
+  formSection.scrollIntoView({ behavior: "smooth" });
+
 });
 
 // Handle Image Preview
@@ -98,6 +100,9 @@ window.editRecipe = function (index) {
   ingredientsInput.value = r.ingredients.join("\n");
   instructionsInput.value = r.instructions;
   imagePreview.innerHTML = `<img src="${r.image}" alt="Preview">`;
+
+  formSection.scrollIntoView({ behavior: "smooth" });
+
 };
 
 // Delete Recipe
@@ -116,3 +121,4 @@ document.getElementById("exportBtn").addEventListener("click", () => {
   a.download = "recipes.json";
   a.click();
 });
+
